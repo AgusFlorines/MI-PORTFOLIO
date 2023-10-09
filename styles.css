@@ -7,7 +7,6 @@
 }
 
 h3 {
-    background-color: blue;
     color: white;
     height: 50px;
     margin-top: 20px;
@@ -465,24 +464,108 @@ footer {
     #Borrar {
         width: 230px;
     }
- 
+
     .Hobbies {
         width: 150px;
         height: 200px;
     }
 
-    footer {
-        height: 350px;
-        flex-direction: column;
-
-    }
 
 }
 
 @media (max-width: 450px) {
 
-    /*falta*/
+    /*#Logo {
 
+ 
+    }*/
+
+    h1{
+
+        font-size: medium;
+    }
+
+    h3 {
+        color: white;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: medium;
+    }
+
+        #perfil {
+        padding: 0px;
+        height: 180px;
+    }
+
+    #Sobre {
+        font-size: xx-small;
+        width: 110px;
+        height: 30px;
+        margin-left: 40px;
+    }
+
+    #bienvenido {
+        padding-left: 50px;
+    }
+
+    #Quien {
+        margin-left: 10px;
+        font-size: small;
+        height: 190px;
+        width: 400px;
+        padding: 15px;
+    }
+
+    .Estudios {
+        width: 390px;
+        font-size: small;
+    }
+
+    .Experiencia {
+        font-size: small;
+        height: 310px;
+    }
+
+    #programación {
+        height: 150px;
+        width: auto;
+        font-size: small;
+    }
+
+    .imagen {
+        width: 60px;
+        height: 50px;
+    }
+
+    #conoci {
+        height: 50px;
+    }
+
+    input {
+        width: 230px;
+        height: 40px;
+        margin: 20px;
+    }
+
+    #Enviar {
+        width: 230px;
+    }
+
+    #Borrar {
+        width: 230px;
+    }
+
+    .Hobbies {
+        width: 90px;
+        height: 140px;
+    
+    }
+
+    footer{
+        font-size: x-small;
+        padding: 10%;
+    }
+  
 }
-
-/*probando git2*/
