@@ -493,7 +493,11 @@ footer {
         font-size: medium;
     }
 
-        #perfil {
+    h5{
+        font-size: medium;
+    }
+
+    #perfil {
         padding: 0px;
         height: 180px;
     }
@@ -512,19 +516,19 @@ footer {
     #Quien {
         margin-left: 10px;
         font-size: small;
-        height: 170px;
-        width: 380px;
-        padding: 25px;
+        height: 200px;
+        width: 360px;
+        padding: 20px;
     }
 
     .Estudios {
-        width: 380px;
+        width: 370px;
         font-size: small;
     }
 
     .Experiencia {
         font-size: small;
-        height: 310px;
+        height: 380px;
     }
 
     #profeimg {
@@ -536,6 +540,7 @@ footer {
         height: 230px;
         width: 350px;
         padding: 30px;
+        font-size: small;
     }
     
     #programación {
@@ -545,12 +550,12 @@ footer {
     }
 
     .imagen {
-        width: 60px;
-        height: 50px;
+        width: 50px;
+        height: 40px;
     }
 
     #conoci {
-        height: 50px;
+        height: 40px;
     }
 
     form{
