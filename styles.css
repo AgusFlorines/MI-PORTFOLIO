@@ -481,7 +481,6 @@ footer {
     }*/
 
     h1{
-
         font-size: medium;
     }
 
@@ -585,8 +584,9 @@ footer {
     }
 
     .Hobbies {
-        width: 85px;
-        height: 135px;
+        width: 80px;
+        height: 120px;
+        margin: 3px;
     
     }
 
