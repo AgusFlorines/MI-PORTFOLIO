@@ -239,10 +239,10 @@ h4 {
     font-size: x-large;
     color: white;
     width: 800px;
-    height: 270px;
-    margin: 200px;
+    height: 230px;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 25%;
 }
 
 /*Sección Conocimiento*/
@@ -501,7 +501,7 @@ footer {
 
     #Sobre {
         font-size: xx-small;
-        width: 110px;
+        width: 100px;
         height: 30px;
         margin-left: 40px;
     }
@@ -513,13 +513,13 @@ footer {
     #Quien {
         margin-left: 10px;
         font-size: small;
-        height: 190px;
-        width: 400px;
-        padding: 15px;
+        height: 170px;
+        width: 380px;
+        padding: 25px;
     }
 
     .Estudios {
-        width: 390px;
+        width: 380px;
         font-size: small;
     }
 
@@ -528,6 +528,17 @@ footer {
         height: 310px;
     }
 
+    #profeimg {
+        height: 300px;
+        width: 350px;
+    }
+    
+    #profe1 {
+        height: 230px;
+        width: 350px;
+        padding: 30px;
+    }
+    
     #programación {
         height: 150px;
         width: auto;
@@ -543,23 +554,39 @@ footer {
         height: 50px;
     }
 
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+    }
+
     input {
         width: 230px;
         height: 40px;
-        margin: 20px;
+        margin: 10px;
+        
+    }
+
+    textarea {
+        width: 230px;
+        height: 80px;
+        margin: 10px;
+        padding: 10px;
     }
 
     #Enviar {
-        width: 230px;
+        width: 160px;
     }
 
     #Borrar {
-        width: 230px;
+        width: 160px;
     }
 
     .Hobbies {
-        width: 90px;
-        height: 140px;
+        width: 85px;
+        height: 135px;
     
     }
 
