@@ -7,7 +7,6 @@
 }
 
 h1 {
-
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -15,12 +14,10 @@ h1 {
     font-size: 120px;
     padding-bottom: 50px;
     padding-top: 50px;
-
 }
 
 h2 {
     color: #ff0055d7;
-
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -30,12 +27,10 @@ h2 {
     align-items: end;
     margin-bottom: 6%;
     font-size: 50px;
-
 }
 
 h3 {
     color: #8400ff;
-
     position: relative;
     display: flex;
     justify-content: center;
@@ -44,8 +39,6 @@ h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
-
-
 }
 
 h4 {
@@ -56,7 +49,6 @@ h4 {
     color: #ff0055d7;
     margin: 3%;
 }
-
 
 h5 {
     position: relative;
@@ -95,13 +87,9 @@ ul li {
 
 #Bienvenido {
     background-color: black;
-
     height: 700px;
-
     padding-left: 150px;
-
 }
-
 
 #Sobremi {
     background-color: #8400ff;
@@ -111,18 +99,15 @@ ul li {
     height: 60px;
     color: white;
     margin-right: 3%;
-
 }
 
 #Contactar {
-    background-color: none;
+    background-color: black;
     border-color: #8400ff;
     border-radius: 40px;
     width: 200px;
     height: 60px;
     color: #8400ff;
-
-
 }
 
 #perfil {
@@ -142,32 +127,25 @@ ul li {
     justify-content: center;
     margin: 50px;
     margin-left: 30%;
-
     padding: 30px;
-
-
 }
 
 /*Sección Estudios*/
 
 .circulos {
-
     background-color: #8400ff;
     color: white;
     height: 100px;
     width: 100px;
     margin: 50px;
     border-radius: 50px;
-
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
 #contenedorestudios {
-
     position: relative;
     display: flex;
     align-items: center;
@@ -188,7 +166,6 @@ ul li {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.767);
     border-style: solid;
     border-radius: 40px;
-
 }
 
 .Estudios:hover {
@@ -204,7 +181,6 @@ ul li {
     margin-left: 250px;
     padding: 30px;
     color: white;
-
     border-radius: 20px;
     background-color: #8400ff;
 }
@@ -231,23 +207,17 @@ ul li {
     border-radius: 40px;
 }
 
-
-
 /*Sección Mis Proyectos */
 
 .pagina {
-
     width: 60%;
     margin: 50px;
     margin-left: 60px;
     margin-bottom: 60px;
-
 }
 
 #story {
-
     width: 50%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,7 +250,6 @@ ul li {
     height: 60px;
     color: white;
     margin: 3%;
-
 }
 
 .btn {
@@ -297,23 +266,19 @@ ul li {
 }
 
 .epigrafe {
-
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 #pokecard {
-
     width: 25%;
 }
 
 /*Sección Mis Emprendimientos */
-.Arrobas {
 
+.Arrobas {
     color: black;
 }
 
@@ -326,17 +291,14 @@ ul li {
 }
 
 #NombreDesg {
-
     color: purple;
 }
 
 .logos {
-
     height: 300px;
 }
 
 .Emprendealineacion {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,14 +306,12 @@ ul li {
 }
 
 #NombreAprende {
-
     color: #dd029b;
 }
 
 /*Sección Formulario*/
 
 #fomulario{
-
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
@@ -388,7 +348,6 @@ footer {
 }
 
 #Foot1 {
-
     padding-top: 25px;
     padding-bottom: 25px;
     position: relative;
@@ -411,7 +370,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /*@media (max-width: 750px) {
