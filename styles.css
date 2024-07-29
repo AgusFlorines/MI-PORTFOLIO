@@ -539,11 +539,11 @@ footer {
     
     h1 {
 
-        font-style: normal;
+
         font-size: 35px;
        
         padding-top: 10%;
-    
+    padding-bottom: 0%;
     }
     
     h2 {
@@ -600,11 +600,12 @@ footer {
 
 
     #Logo {
+     display: none;
         width: 5%;
     }
 
     ul li{
-        display:flex;
+        display:inline-block;
     }
     
     .navbar {
@@ -613,8 +614,8 @@ footer {
     }
     
     .nav-link {
-        padding-right: 50px;
-        display: block;
+        padding-right: 75px;
+     font-size: x-small;
         justify-content: center;
     }
      
@@ -630,13 +631,16 @@ footer {
     width: 90px;
         height: 25px;
         font-size: small;
+        margin-bottom: 50px;
+        margin-right: 1px;
     }
     
     #Contactar {
         width: 90px;
         height: 25px;
         font-size: small;
-    
+        margin-bottom: 50px;
+        margin-right: 1px;
     }
     
     #perfil {
@@ -695,6 +699,20 @@ footer {
     
     }
     
+    .card-title {
+
+        font-size: x-small;
+    }
+    .card{
+       width:  30px;
+height: auto;
+margin: 5%;
+padding: 0.1%;
+    }
+    .card-text{
+        font-size: x-small;
+
+    }
     #story {
     margin: 3%;
     }
@@ -805,145 +823,14 @@ footer {
     /*Footer*/
     
      footer {
-        padding-top: 15px;
-        padding: 3%;
+        padding-top: 10px;
+        padding: 1%;
         
     }
     
     #Foot1 {
     
-        padding: 5%;
-   
-    
-        justify-content: center;
+        padding: 1%;
+           justify-content: center;
         align-items: center;
-    }
-    
- 
-}
-    /*#Logo {
-
- 
-    }
-
-    h1 {
-        font-size: medium;
-    }
-
-    h3 {
-        color: white;
-        height: 30px;
-        margin-top: 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: medium;
-    }
-
-    h5 {
-        font-size: medium;
-    }
-
-    #perfil {
-        padding: 0px;
-        height: 150px;
-    }
-
-    #Sobre {
-        font-size: xx-small;
-        width: 100px;
-        height: 30px;
-        margin-left: 40px;
-    }
-
-    #bienvenido {
-        padding-left: 50px;
-    }
-
-    #Quien {
-        margin-left: 10px;
-        font-size: small;
-        height: 200px;
-        width: 360px;
-        padding: 20px;
-    }
-
-    .Estudios {
-        width: 370px;
-        font-size: small;
-    }
-
-    .Experiencia {
-        font-size: small;
-        height: 380px;
-    }
-
-    #profeimg {
-        height: 300px;
-        width: 350px;
-    }
-
-    #profe1 {
-        height: 230px;
-        width: 350px;
-        padding: 30px;
-        font-size: small;
-    }
-
-    #programación {
-        height: 150px;
-        width: auto;
-        font-size: small;
-    }
-
-    .imagen {
-        width: 50px;
-        height: 40px;
-    }
-
-    #conoci {
-        height: 40px;
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: small;
-    }
-
-    input {
-        width: 230px;
-        height: 40px;
-        margin: 10px;
-
-    }
-
-    textarea {
-        width: 230px;
-        height: 80px;
-        margin: 10px;
-        padding: 10px;
-    }
-
-    #Enviar {
-        width: 160px;
-    }
-
-    #Borrar {
-        width: 160px;
-    }
-
-    .Hobbies {
-        width: 80px;
-        height: 120px;
-        margin: 3px;
-
-    }
-
-    footer {
-        font-size: x-small;
-        padding: 10%;
-    }
-
-}*/
+    }}
