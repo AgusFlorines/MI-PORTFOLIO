@@ -63,7 +63,6 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*Nav*/
@@ -285,6 +284,32 @@ p {
 
 }
 
+.btn {
+    background-color: #ff0055d7;
+    border-color: white;
+    border-radius: 40px;
+    width: auto;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #8400ff;
+    color: white;
+}
+.epigrafe{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+align-items: center;
+ 
+    
+}
+
+#pokecard{
+
+    width: 25%;
+}
 /*Sección Mis Emprendimientos */
 .Arrobas {
 
@@ -510,12 +535,296 @@ footer {
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 450px) {    
+    
+    h1 {
 
+        font-style: normal;
+        font-size: 35px;
+       
+        padding-top: 10%;
+    
+    }
+    
+    h2 {
+            font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-bottom: 2%;
+        font-size: 20px;
+    
+    }
+    
+    h3 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3%;
+        font-size: 10px;
+    
+    }
+    
+    h4 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1%;
+        font-size: 10px;
+    }
+    
+    
+    h5 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    p{
+        font-size: 10px;
+
+    }
+    /*Nav*/
+    
+    a{
+        font-size: 10px;
+
+    }
+
+
+    #Logo {
+        width: 5%;
+    }
+
+    ul li{
+        display:flex;
+    }
+    
+    .navbar {
+        padding: auto;
+        margin: auto;
+    }
+    
+    .nav-link {
+        padding-right: 50px;
+        display: block;
+        justify-content: center;
+    }
+     
+    /*Primera sección = Bienvenidos*/
+    
+    #Bienvenido {
+       height: auto;
+    padding-left: 25px;
+
+    }
+    
+   #Sobremi {
+    width: 90px;
+        height: 25px;
+        font-size: small;
+    }
+    
+    #Contactar {
+        width: 90px;
+        height: 25px;
+        font-size: small;
+    
+    }
+    
+    #perfil {
+        padding: 10%;
+        height: 150px;
+        margin-left: 25px;
+    }
+    
+    /*Sección Conoceme*/
+    
+    #Quien {
+        height: 100px;
+        width: 400px;
+        margin: 10%;
+        padding: 10px;  
+    }
+    
+    /*Sección Estudios*/
+    
+    .circulos {
+          
+        display: none;
+       
+    }
+    
+    #data{
+
+        margin: 10%;
+    }
+    
+      /*Sección Experiencia*/
+    .Experiencia {
+        height: auto;
+        width: auto;
+        margin: 20px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        padding: 3%;
+  font-size: x-small;
+    
+    }
+      
+    #profeimg {
+        height: 150px;
+        width: 300px;
+   }
+      
+    
+    /*Sección Mis Proyectos */
+    
+    .pagina {
+        width: 60%;
+        margin: 30px;
+        margin-left: 60px;
+        margin-bottom: 60px;
+    
+    }
+    
+    #story {
+    margin: 3%;
+    }
+      
+    .proto {
+        width: 5%;
+    }
+ 
+    .botonproto {
+           width: auto;
+        height: 35px;
+    font-size: x-small;
+        margin: 3%;
+        padding: 1%;
+    
+    }
+    
+    .btn {
+        font-size: x-small;
+    }
+    
+    /*Sección Mis Emprendimientos */
+      
+    #Emprende {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+    }
+       
+    .logos {
+    
+        height: 120px;
+    }
+   
+    .logoinstagram{
+        width: 15%;
+
+    }
+    /*Sección Formulario*/
+    
+    #Formulario {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form {
+        margin-left: 150px;
+        margin-right: 150px;
+        padding-top: 20px;
+    }
+    
+    input {
+        border: 2px solid white;
+        border-radius: 10px;
+        background: none;
+        width: 300px;
+        height: 50px;
+        text-align: center;
+        color: white;
+    }
+    
+    input:focus {
+        background-color: rgb(165, 241, 235);
+        color: black;
+    }
+    
+    textarea {
+        border: 2px solid white;
+        border-radius: 10px;
+        background: none;
+        color: white;
+    }
+    
+    textarea:focus {
+        background-color: rgb(165, 241, 235);
+        color: black;
+    }
+    
+    #Enviar {
+        background-color: green;
+        border-bottom: #edf2f4;
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        color: white;
+    }
+    
+    #Borrar {
+        background-color: orangered;
+        border-bottom: #edf2f4;
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        color: white;
+    }
+    
+    /*Sección Ubicación*/
+    
+    #mapa {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /*Footer*/
+    
+     footer {
+        padding-top: 15px;
+        padding: 3%;
+        
+    }
+    
+    #Foot1 {
+    
+        padding: 5%;
+   
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+ 
+}
     /*#Logo {
 
  
-    }*/
+    }
 
     h1 {
         font-size: medium;
@@ -637,4 +946,4 @@ footer {
         padding: 10%;
     }
 
-}
+}*/
