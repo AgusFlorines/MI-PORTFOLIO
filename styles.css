@@ -110,15 +110,18 @@ ul li {
     width: 200px;
     height: 60px;
     color: white;
+    margin-right: 3%;
 
 }
 
 #Contactar {
+    background-color: none;
     border-color: #8400ff;
     border-radius: 40px;
     width: 200px;
     height: 60px;
     color: #8400ff;
+
 
 }
 
@@ -128,11 +131,7 @@ ul li {
     margin-left: 100px;
 }
 
-/*Sección Conoceme
-
-p {
-
-}*/
+/*Sección Conoceme*/
 
 #Quien {
     height: 200px;
@@ -292,24 +291,26 @@ p {
     color: white;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #8400ff;
     color: white;
 }
-.epigrafe{
+
+.epigrafe {
 
     position: relative;
     display: flex;
     justify-content: center;
-align-items: center;
- 
-    
+    align-items: center;
+
+
 }
 
-#pokecard{
+#pokecard {
 
     width: 25%;
 }
+
 /*Sección Mis Emprendimientos */
 .Arrobas {
 
@@ -344,67 +345,20 @@ align-items: center;
 
 #NombreAprende {
 
-    color: rgb(221, 2, 155);
+    color: #dd029b;
 }
 
 /*Sección Formulario*/
 
-#Formulario {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#fomulario{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
 }
 
-form {
-    margin-left: 150px;
-    margin-right: 150px;
-    padding-top: 20px;
-}
-
-input {
-    border: 2px solid white;
-    border-radius: 10px;
-    background: none;
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    color: white;
-}
-
-input:focus {
-    background-color: rgb(165, 241, 235);
-    color: black;
-}
-
-textarea {
-    border: 2px solid white;
-    border-radius: 10px;
-    background: none;
-    color: white;
-}
-
-textarea:focus {
-    background-color: rgb(165, 241, 235);
-    color: black;
-}
-
-#Enviar {
-    background-color: green;
-    border-bottom: #edf2f4;
-    border-radius: 20px;
-    width: 100px;
-    height: 40px;
-    color: white;
-}
-
-#Borrar {
-    background-color: orangered;
-    border-bottom: #edf2f4;
-    border-radius: 20px;
-    width: 100px;
-    height: 40px;
-    color: white;
+label{
+    color:#dd029b;
 }
 
 /*Sección Ubicación*/
@@ -460,94 +414,27 @@ footer {
 
 }
 
-@media (max-width: 750px) {
-
-    ul li {
-        display: block;
-    }
-
-    .navbar {
-        padding: 0px;
-    }
-
-    #perfil {
-        padding: 20px;
-        height: 300px;
-    }
-
-    #bienvenido {
-        padding-left: 38px;
-    }
-
-    #Quien {
-        margin-left: 10px;
-    }
-
-    .Estudios {
-        width: 700px;
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .Experiencia {
-        height: 400px;
-        margin: 0px;
-        margin-right: 5px;
-        margin-top: 10px;
-        padding: 20px;
-    }
-
-    #programación {
-        margin-left: 15px;
-        margin-right: 15px;
-        height: 250px;
-        width: auto;
-    }
-
-    .imagen {
-        width: 80px;
-        height: 80px;
-    }
+/*@media (max-width: 750px) {
 
     #conoci {
         height: 80px;
     }
 
-    input {
-        width: 230px;
-        height: 40px;
-        margin: 20px;
-    }
+}*/
 
-    #Enviar {
-        width: 230px;
-    }
+@media (max-width: 450px) {
 
-    #Borrar {
-        width: 230px;
-    }
-
-    .Hobbies {
-        width: 150px;
-        height: 200px;
-    }
-
-
-}
-
-@media (max-width: 450px) {    
-    
     h1 {
 
 
         font-size: 35px;
-       
+
         padding-top: 10%;
-    padding-bottom: 0%;
+        padding-bottom: 0%;
     }
-    
+
     h2 {
-            font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 900;
         font-style: normal;
         position: relative;
@@ -556,9 +443,9 @@ footer {
         align-items: end;
         margin-bottom: 2%;
         font-size: 20px;
-    
+
     }
-    
+
     h3 {
         position: relative;
         display: flex;
@@ -566,9 +453,9 @@ footer {
         align-items: center;
         margin: 3%;
         font-size: 10px;
-    
+
     }
-    
+
     h4 {
         position: relative;
         display: flex;
@@ -577,64 +464,65 @@ footer {
         margin: 1%;
         font-size: 10px;
     }
-    
-    
+
+
     h5 {
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-       
+
     }
-    
-    p{
+
+    p {
         font-size: 10px;
 
     }
+
     /*Nav*/
-    
-    a{
+
+    a {
         font-size: 10px;
 
     }
 
 
     #Logo {
-     display: none;
+        display: none;
         width: 5%;
     }
 
-    ul li{
-        display:inline-block;
+    ul li {
+        display: inline-block;
     }
-    
+
     .navbar {
         padding: auto;
         margin: auto;
     }
-    
+
     .nav-link {
         padding-right: 75px;
-     font-size: x-small;
+        font-size: x-small;
         justify-content: center;
     }
-     
+
     /*Primera sección = Bienvenidos*/
-    
+
     #Bienvenido {
-       height: auto;
-    padding-left: 25px;
+        height: auto;
+        padding-left: 25px;
 
     }
-    
-   #Sobremi {
-    width: 90px;
+
+    #Sobremi {
+        width: 90px;
         height: 25px;
         font-size: small;
         margin-bottom: 50px;
         margin-right: 1px;
     }
-    
+
     #Contactar {
         width: 90px;
         height: 25px;
@@ -642,36 +530,36 @@ footer {
         margin-bottom: 50px;
         margin-right: 1px;
     }
-    
+
     #perfil {
         padding: 10%;
         height: 150px;
         margin-left: 25px;
     }
-    
+
     /*Sección Conoceme*/
-    
+
     #Quien {
         height: 100px;
         width: 400px;
         margin: 10%;
-        padding: 10px;  
+        padding: 10px;
     }
-    
+
     /*Sección Estudios*/
-    
+
     .circulos {
-          
+
         display: none;
-       
+
     }
-    
-    #data{
+
+    #data {
 
         margin: 10%;
     }
-    
-      /*Sección Experiencia*/
+
+    /*Sección Experiencia*/
     .Experiencia {
         height: auto;
         width: auto;
@@ -679,63 +567,66 @@ footer {
         margin-left: 10%;
         margin-bottom: 5%;
         padding: 3%;
-  font-size: x-small;
-    
+        font-size: x-small;
+
     }
-      
+
     #profeimg {
         height: 150px;
         width: 300px;
-   }
-      
-    
+    }
+
+
     /*Sección Mis Proyectos */
-    
+
     .pagina {
         width: 60%;
         margin: 30px;
         margin-left: 60px;
         margin-bottom: 60px;
-    
+
     }
-    
+
     .card-title {
 
         font-size: x-small;
     }
-    .card{
-       width:  30px;
-height: auto;
-margin: 5%;
-padding: 0.1%;
+
+    .card {
+        width: 30px;
+        height: auto;
+        margin: 5%;
+        padding: 0.1%;
     }
-    .card-text{
+
+    .card-text {
         font-size: x-small;
 
     }
+
     #story {
-    margin: 3%;
+        margin: 3%;
     }
-      
+
     .proto {
         width: 5%;
     }
- 
+
     .botonproto {
-           width: auto;
+        width: auto;
         height: 35px;
-    font-size: x-small;
+        font-size: x-small;
         margin: 3%;
         padding: 1%;
-    
+
     }
-    
+
     .btn {
         font-size: x-small;
     }
-    
+
     /*Sección Mis Emprendimientos */
-      
+
     #Emprende {
         position: relative;
         display: flex;
@@ -743,31 +634,32 @@ padding: 0.1%;
         justify-content: center;
         margin: 50px;
     }
-       
+
     .logos {
-    
+
         height: 120px;
     }
-   
-    .logoinstagram{
+
+    .logoinstagram {
         width: 15%;
 
     }
+
     /*Sección Formulario*/
-    
+
     #Formulario {
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     form {
         margin-left: 150px;
         margin-right: 150px;
         padding-top: 20px;
     }
-    
+
     input {
         border: 2px solid white;
         border-radius: 10px;
@@ -777,24 +669,24 @@ padding: 0.1%;
         text-align: center;
         color: white;
     }
-    
+
     input:focus {
         background-color: rgb(165, 241, 235);
         color: black;
     }
-    
+
     textarea {
         border: 2px solid white;
         border-radius: 10px;
         background: none;
         color: white;
     }
-    
+
     textarea:focus {
         background-color: rgb(165, 241, 235);
         color: black;
     }
-    
+
     #Enviar {
         background-color: green;
         border-bottom: #edf2f4;
@@ -803,7 +695,7 @@ padding: 0.1%;
         height: 40px;
         color: white;
     }
-    
+
     #Borrar {
         background-color: orangered;
         border-bottom: #edf2f4;
@@ -812,25 +704,26 @@ padding: 0.1%;
         height: 40px;
         color: white;
     }
-    
+
     /*Sección Ubicación*/
-    
+
     #mapa {
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     /*Footer*/
-    
-     footer {
+
+    footer {
         padding-top: 10px;
         padding: 1%;
-        
+
     }
-    
+
     #Foot1 {
-    
+
         padding: 1%;
-           justify-content: center;
+        justify-content: center;
         align-items: center;
-    }}
+    }
+}
